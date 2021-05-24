@@ -1,3 +1,3 @@
-Mi primer remo
+Mi primer repo
 
 update desde el repo remoto
