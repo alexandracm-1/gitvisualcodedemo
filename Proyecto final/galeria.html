@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería</title>
+    <link rel="stylesheet" href="estilos.galery.css"></head>
+    <script src="https://kit.fontawesome.com/c672bf2245.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img id="logo" src="logo.jpg" alt="logo" width="300px"> 
+        <h1>Introducción al Desarrollo Web</h1>
+        
+
+         <nav>
+            <a href="Index html.html">Inicio</a> |
+            <a href="biografia.html">Biografia</a> |
+            <a href="galeria.html">Galeria</a>
+        </nav>
+    </header>
+    <h2>Galería</h2>
+    <nav>
+        <button id="hobbies" onclick="mostrarCategoria(hobbies)">Hobbies</button>
+        <button id="mascotas" onclick="mostrarCategoria(mascotas)">Mascotas</button>
+        <button id="paseos" onclick="mostrarCategoria(paseos)">Paseos</button>
+    </nav>
+    <div id="galeria">
+        <div class="categoria" id="hobbies">
+            <div class="imagenes"><img src="imagenes/hobbie1.jpeg" alt="hobbies1" width="200px"></div>
+            <div class="imagenes"><img src="imagenes/hobbie2.jpeg" alt="hobbies2" width="200px"></div>
+            <div class="imagenes"><img src="imagenes/hobbie3.jpeg" alt="hobbies3" width="200px"></div>
+            <div class="imagenes"><img src="imagenes/hobbie4.jpeg" alt="hobbies4" width="200px"></div>
+        </div>
+        <div class="categoria" id="mascotas">
+            <div class="imagenes"><img src="imagenes/Max(1).jpeg" alt="mascotas1" width="200px"></div>
+            <div class="imagenes"><img src="imagenes/Max(2).jpeg" alt="mascotas2" width="200px"></div>
+            <div class="imagenes"><img src="imagenes/Max(4).jpeg" alt="mascotas3" width="200px"></div>
+            <div class="imagenes"><img src="imagenes/Lolita.jpeg" alt="mascotas4" width="200px"></div>
+        </div>
+        <div class="categoria" id="paseos">
+            <div class="imagenes"><img src="imagenes/Paseos(1).jpeg" alt="paseos1" width="200px"></div>
+            <div class="imagenes"><img src="imagenes/Paseos(2).jpeg" alt="paseos2" width="200px"></div>
+            <div class="imagenes"><img src="imagenes/Paseos(3).jpeg" alt="paseos3" width="200px"></div>
+            <div class="imagenes"><img src="imagenes/Paseos(4).jpeg" alt="paseos4" width="200px"></div>
+        </div>
+    </div>
+
+    <footer> 
+        <small>
+        &#169; 2021 Hecho por Alexandra Campos | 
+        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        <a href="https://es.linkedin.com/" target="_blank">Linkedin</a>
+        </small>
+</footer>
+    
+</body>
+</html>
